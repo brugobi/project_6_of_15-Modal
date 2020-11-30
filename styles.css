@@ -183,7 +183,7 @@ Modal
 */
 .hero {
   min-height: 100vh;
-  background: url("./hero.jpeg") center/cover no-repeat;
+  background: url("./hero.jpg") center/cover no-repeat;
   display: grid;
   place-items: center;
 }
@@ -216,8 +216,8 @@ Modal
   display: grid;
   place-items: center;
   transition: var(--transition);
-  /* visibility: hidden;
-  z-index: -10; */
+  visibility: hidden;
+  z-index: -10;
 }
 /* OPEN/CLOSE MODAL */
 .open-modal {
